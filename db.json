@@ -1,0 +1,94 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "gender": "male",
+      "genre": "music",
+      "image": "image_url_1",
+      "isDead": false,
+      "name": "Elvis Presley",
+      "year": 1935
+    },
+    {
+      "id": 2,
+      "gender": "female",
+      "genre": "acting",
+      "image": "image_url_2",
+      "isDead": true,
+      "name": "Marilyn Monroe",
+      "year": 1926
+    },
+    {
+      "id": 3,
+      "gender": "male",
+      "genre": "science",
+      "image": "image_url_3",
+      "isDead": true,
+      "name": "Albert Einstein",
+      "year": 1879
+    },
+    {
+      "id": 4,
+      "gender": "male",
+      "genre": "literature",
+      "image": "image_url_4",
+      "isDead": true,
+      "name": "William Shakespeare",
+      "year": 1564
+    },
+    {
+      "id": 5,
+      "gender": "female",
+      "genre": "music",
+      "image": "image_url_5",
+      "isDead": false,
+      "name": "Beyoncé",
+      "year": 1981
+    },
+    {
+      "id": 6,
+      "gender": "male",
+      "genre": "acting",
+      "image": "image_url_6",
+      "isDead": false,
+      "name": "Leonardo DiCaprio",
+      "year": 1974
+    },
+    {
+      "id": 7,
+      "gender": "female",
+      "genre": "science",
+      "image": "image_url_7",
+      "isDead": false,
+      "name": "Marie Curie",
+      "year": 1867
+    },
+    {
+      "id": 8,
+      "gender": "male",
+      "genre": "sports",
+      "image": "image_url_8",
+      "isDead": false,
+      "name": "Usain Bolt",
+      "year": 1986
+    },
+    {
+      "id": 9,
+      "gender": "male",
+      "genre": "technology",
+      "image": "image_url_9",
+      "isDead": true,
+      "name": "Steve Jobs",
+      "year": 1955
+    },
+    {
+      "id": 10,
+      "gender": "female",
+      "genre": "literature",
+      "image": "image_url_10",
+      "isDead": true,
+      "name": "Jane Austen",
+      "year": 1775
+    }
+  ]
+}
