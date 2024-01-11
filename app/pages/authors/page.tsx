@@ -40,27 +40,10 @@ const Authors = (props: Props) => {
     }[]
   >([]);
   const [age, setAge] = React.useState("");
-  let arr = [1, 2, 3, 4, 5];
   const handleChange = (event: SelectChangeEvent) => {
     setAge(event.target.value as string);
   };
-  const getRealTimeDB = async () => {
-    const db = getDatabase(app);
-    const dbRef = ref(getDatabase(app));
-    get(child(dbRef, `users/`))
-      .then((snapshot) => {
-        if (snapshot.exists()) {
-          console.log(snapshot.val());
-          setData(snapshot.val());
-        } else {
-          console.log("No data available");
-        }
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  };
-  // bu real update data oxumaqdir
+
   const getRealTimeOnValueDB = async () => {
     const db = getDatabase(app);
     const starCountRef = ref(db, "authors/");
@@ -71,10 +54,9 @@ const Authors = (props: Props) => {
   };
 
   useEffect(() => {
-    // getRealTimeDB();
     getRealTimeOnValueDB();
   }, []);
-  const deleteAuthor = async (id) => {
+  const deleteAuthor = async (id: any) => {
     const db = getDatabase(app);
     remove(ref(db, "authors/" + id));
   };
@@ -111,7 +93,7 @@ const Authors = (props: Props) => {
                 <Grid xl={3} md={4} sm={4} xs={12} lg={3}>
                   <Card
                     sx={{
-                      maxWidth: 345,
+                      maxWidth: 335,
                       paddingBottom: "20px",
                       objectFit: "cover",
                       marginBottom: "10px",
